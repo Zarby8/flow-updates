@@ -1,0 +1,147 @@
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>FLOW</title>
+        <item>
+            <title>1.0.727</title>
+            <pubDate>Sun, 09 Aug 2026 14:49:26 -0400</pubDate>
+            <sparkle:version>727</sparkle:version>
+            <sparkle:shortVersionString>1.0.727</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# FLOW 1.0.727
+
+- Adds one-click export of the reviewed manual shift board as a single `<source>_All-Shifts.mov` reel.
+- Keeps the existing `shifts.csv` roster and individual per-shift clips in the same export folder.
+- Reports combined-reel and individual-clip failures separately without modifying the source video or replacing a prior completed output.
+- Preserves build 725's canonical client code windows, full video controls, timeline/package workflow, GHOST-backed pre-scout context, and Automark review path.
+
+Autonomous shift cutting remains advisory. The production workflow is coach-reviewed manual cutting and export.
+]]></description>
+            <enclosure url="https://flow-updates.forcehockeyiq.com/FLOW-1.0.727-727.zip" length="41690243" type="application/octet-stream" sparkle:edSignature="cbqzMxoRE7KpaOlrG1X0tfZFy0KQaIq/tXNgANfr+QKWxuv0eRhXszKpVjGygryweD6KZkc1ReZ0iHxBYE1HAA=="/>
+        </item>
+        <item>
+            <title>1.0.725</title>
+            <pubDate>Sun, 09 Aug 2026 12:19:47 -0400</pubDate>
+            <sparkle:version>725</sparkle:version>
+            <sparkle:shortVersionString>1.0.725</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# FLOW 1.0.725
+
+- Closes the full-game BOB Breakdown runtime provenance gate.
+- Verifies durable GHOST completion replay and transactional native review-queue recovery.
+- Preserves the signed build-721 editing, client, export, media, and update behavior.
+
+This candidate remains local-only until installed visual acceptance and the guarded Sparkle publication gates pass.
+]]></description>
+            <enclosure url="https://flow-updates.forcehockeyiq.com/FLOW-1.0.725-725.zip" length="41683233" type="application/octet-stream" sparkle:edSignature="Iy2HyX1H0JJqqlXE+JF0JW7czp44EQO33caSszmg9c3d+gqx8xWHlTxL003dtQPJu7t2rGE59kLt5fuGqiVaDg=="/>
+        </item>
+        <item>
+            <title>1.0.721</title>
+            <pubDate>Sun, 09 Aug 2026 09:44:32 -0400</pubDate>
+            <sparkle:version>721</sparkle:version>
+            <sparkle:shortVersionString>1.0.721</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# FLOW 1.0.721
+
+- Preserves build 720's complete editing, client, BOB voice-draft, report, package, and media behavior.
+- Establishes the retained successor required for the first signed wireless update from installed build 720.
+- Keeps microphone input off by default and never sends a BOB transcript without operator review.
+]]></description>
+            <enclosure url="https://flow-updates.forcehockeyiq.com/FLOW-1.0.721-721.zip" length="41683242" type="application/octet-stream" sparkle:edSignature="nQLkQsZi+WBKv0fCFTY4QaqMWYJHjp57nFPMfuk2zoyaCnrxqSLHemUnE6cjbDsHivmWJATMlAngFtLfn7d5CA=="/>
+        </item>
+        <item>
+            <title>1.0.720</title>
+            <pubDate>Sun, 09 Aug 2026 09:25:27 -0400</pubDate>
+            <sparkle:version>720</sparkle:version>
+            <sparkle:shortVersionString>1.0.720</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# FLOW 1.0.720
+
+This release adds review-before-send voice input while preserving FLOW's production coaching workflow.
+
+- Adds push-to-talk dictation to BOB's composer. Transcripts remain editable drafts and are never sent automatically.
+- Keeps TAG voice input staged-only behind the existing sole-writer safety gate.
+- Cancels microphone, transcription, and fallback work when voice input is disabled or its view closes.
+- Keeps voice input off by default until installed microphone UAT is accepted.
+- Retains canonical GHOST client identity, exact-name code-button timeline rows, native video playback, package save/reopen, real-media export, Meeting Notes, and IQ Library playback.
+- Preserves owner-only local storage plus transactional installation backup and rollback support.
+
+The ML models remain advisory and are not promoted by this release.
+]]></description>
+            <enclosure url="https://flow-updates.forcehockeyiq.com/FLOW-1.0.720-720.zip" length="41683255" type="application/octet-stream" sparkle:edSignature="mTjA0Ay/0aH83eK+blI7GvpknC9i81Ix/AbOjhjjoaNcsgTXccWTg9gqa2qgSx7k4XtDP5WhY8NI5G+hBz1hDA=="/>
+        </item>
+        <item>
+            <title>1.0.719</title>
+            <pubDate>Sun, 09 Aug 2026 08:36:36 -0400</pubDate>
+            <sparkle:version>719</sparkle:version>
+            <sparkle:shortVersionString>1.0.719</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# FLOW 1.0.719
+
+This release strengthens BOB's coaching context while preserving the production workflow hardened in build 718.
+
+- Grounds BOB in the selected client's FLOW coaching ledger: coded games and clips, Teaching Points, Positives, recurring tags, and reviewed sessions.
+- Keeps client coaching context isolated by canonical `ghost_id`; no filename or last-name identity matching is used.
+- Retains exact-name code-button timeline rows, native fullscreen playback, package save/reopen, real-media export, Meeting Notes, and IQ Library playback.
+- Preserves owner-only local storage plus transactional install backup and rollback support for Sparkle updates.
+
+The ML models remain advisory and are not promoted by this release.
+]]></description>
+            <enclosure url="https://flow-updates.forcehockeyiq.com/FLOW-1.0.719-719.zip" length="41675951" type="application/octet-stream" sparkle:edSignature="844UJh3K/XdbKRwIAG59NyIMX+bpCm1dwXABIlGpBFoG1l/758Qhu1xoWRKCt6eggPrkzKpdwpEJYzuPg5cKBg=="/>
+        </item>
+        <item>
+            <title>1.0.718</title>
+            <pubDate>Sun, 09 Aug 2026 08:33:01 -0400</pubDate>
+            <sparkle:version>718</sparkle:version>
+            <sparkle:shortVersionString>1.0.718</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# FLOW 1.0.718
+
+This release hardens the core coaching workflow and prepares FLOW for daily production use.
+
+- Loads the canonical GHOST client roster and keeps every client code window isolated by `ghost_id`.
+- Creates exact-name timeline rows from code buttons with no predetermined lanes.
+- Improves native video playback, fullscreen behavior, timeline reliability, package save/reopen, and real-media export.
+- Adds durable Meeting Notes, IQ Library playback, BOB review, and client-scoped coaching context.
+- Enforces owner-only local database and report storage.
+- Limits reports to published ForceIQ coaching content and requires an explicit opponent for manual team scouting.
+- Preserves transactional install backup and rollback support for Sparkle updates.
+
+The ML models remain advisory and are not promoted by this release.
+]]></description>
+            <enclosure url="https://flow-updates.forcehockeyiq.com/FLOW-1.0.718-718.zip" length="41673543" type="application/octet-stream" sparkle:edSignature="bgXBGhPnJk2euuxvs9YhjegMUdETv770RpKHT7eF8nj5YAqQ2s/zDrucSUKFxUm9RTyBGmSF7ojrgDe5hR/HCQ=="/>
+        </item>
+        <item>
+            <title>1.0.677</title>
+            <pubDate>Sun, 02 Aug 2026 22:27:25 -0400</pubDate>
+            <sparkle:version>677</sparkle:version>
+            <sparkle:shortVersionString>1.0.677</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# FLOW 1.0.677
+
+First production-ready core editor candidate.
+
+- Starts with zero predetermined timeline lanes; each saved code button creates its own exact-name row.
+- Restores reliable real-video import, explicit code-button Save, and visible linked labels.
+- Keeps clip-text backgrounds full video width with no horizontal outer padding.
+- Preserves safe independent FLOW packages and retires only the two exact historical factory buttons during upgrade.
+- Updates selected clip in/out and duration immediately during physical timeline trimming, then autosaves and reopens the exact bounds.
+]]></description>
+            <enclosure url="https://flow-updates.forcehockeyiq.com/FLOW-1.0.677-677.zip" length="41517604" type="application/octet-stream" sparkle:edSignature="jKjuoWmeb01mU+PJ/eAQnwjOqD8r+2fWlptk0Kbq9U3ugZgHee1Sc0gAvaS51zrG1ye716nRzoNGHIrQcdOMAQ=="/>
+        </item>
+    </channel>
+</rss>
+<!-- sparkle-signatures:
+edSignature: RySXnf587o93Kw8Tfffkvtzqb2z8ZjhDCCPzbryrDMa9/Shok71PCexP/9mFJnxf5PJiLWXOyWbn6WrSlQOODQ==
+length: 9984
+-->
