@@ -6,6 +6,23 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FLOW</title>
         <item>
+            <title>1.0.728</title>
+            <pubDate>Sun, 09 Aug 2026 17:33:06 -0400</pubDate>
+            <sparkle:version>728</sparkle:version>
+            <sparkle:shortVersionString>1.0.728</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# FLOW 1.0.728
+
+- Declares FLOW's two app-owned NHL transfer types in the signed application bundle, eliminating Launch Services' runtime type-declaration warning.
+- Hardens code-button grid measurement and placement against transient zero, narrow, negative, and nonfinite layout proposals so the cockpit never emits invalid button dimensions.
+- Preserves build 727's canonical client code windows, full video controls, manual `_All-Shifts.mov` export, timeline/package workflow, GHOST-backed pre-scout context, and Automark review path.
+
+This update changes no project schema or media format. The existing database, packages, and build-727 rollback artifact remain compatible.
+]]></description>
+            <enclosure url="https://flow-updates.forcehockeyiq.com/FLOW-1.0.728-728.zip" length="41691019" type="application/octet-stream" sparkle:edSignature="WGFUkAn1M99gGG7vZ65KByXwcKxEs5nwrlJb4iRYrOZAD+XeqdFC+2CSFFexHrBONSlIFsTYOiR3k58jdcLhBQ=="/>
+        </item>
+        <item>
             <title>1.0.727</title>
             <pubDate>Sun, 09 Aug 2026 14:49:26 -0400</pubDate>
             <sparkle:version>727</sparkle:version>
@@ -142,6 +159,6 @@ First production-ready core editor candidate.
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: RySXnf587o93Kw8Tfffkvtzqb2z8ZjhDCCPzbryrDMa9/Shok71PCexP/9mFJnxf5PJiLWXOyWbn6WrSlQOODQ==
-length: 9984
+edSignature: 0JZZyjnoEVDJmmrHW9z/Du/k5xZhvBpdMNhG8Dn3C0GcRjOcJImKt0urp2uCzb511E944o18YY6vLVm3+0b0AA==
+length: 11406
 -->
