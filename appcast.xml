@@ -6,6 +6,23 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FLOW</title>
         <item>
+            <title>1.0.729</title>
+            <pubDate>Mon, 10 Aug 2026 10:19:54 -0400</pubDate>
+            <sparkle:version>729</sparkle:version>
+            <sparkle:shortVersionString>1.0.729</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# FLOW 1.0.729
+
+- Fixes the preview-player crash caused when AVFoundation saw one video item attached to two player instances.
+- Keeps each preview item with one player from readiness through playback across IQ Library, NHL search, NHL database, and Organizer previews.
+- Preserves the prior visible frame while a replacement preview loads, with normal audio and playback controls after the swap.
+
+This update changes no project schema or media format. Existing databases and packages remain compatible, and signed build 728 is retained for rollback.
+]]></description>
+            <enclosure url="https://flow-updates.forcehockeyiq.com/FLOW-1.0.729-729.zip" length="41690045" type="application/octet-stream" sparkle:edSignature="DogSbvbgd52SffdqUr1vgHYbnfCeJR3lMts/iO3rT9fJsVPWUbBj2eI8BQlsCSUKj9NuPnsxeHKFu9RIPPjODw=="/>
+        </item>
+        <item>
             <title>1.0.728</title>
             <pubDate>Sun, 09 Aug 2026 17:33:06 -0400</pubDate>
             <sparkle:version>728</sparkle:version>
@@ -159,6 +176,6 @@ First production-ready core editor candidate.
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 0JZZyjnoEVDJmmrHW9z/Du/k5xZhvBpdMNhG8Dn3C0GcRjOcJImKt0urp2uCzb511E944o18YY6vLVm3+0b0AA==
-length: 11406
+edSignature: 1a9ZjyhwbHWPFZjZnIVfnp+g2zZwWSNXBBmnHpRpSFh3MRfSfXWTqUYJzFKyTKzUz25n57zXCuS6q/S2Ynl9DQ==
+length: 12701
 -->
