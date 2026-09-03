@@ -6,59 +6,42 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FLOW</title>
         <item>
-            <title>1.0.1081</title>
-            <pubDate>Wed, 02 Sep 2026 09:13:55 -0400</pubDate>
-            <sparkle:version>1081</sparkle:version>
-            <sparkle:shortVersionString>1.0.1081</sparkle:shortVersionString>
+            <title>1.0.1113</title>
+            <pubDate>Wed, 02 Sep 2026 23:23:30 -0400</pubDate>
+            <sparkle:version>1113</sparkle:version>
+            <sparkle:shortVersionString>1.0.1113</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# FLOW 1.0.1081
+            <description sparkle:format="markdown"><![CDATA[# FLOW 1.0.1113
 
-Built from `main` @ `5aa6f1ce` on 2026-09-02. Signed and notarized.
-
-## What changed since 1.0.729
-
-- IQ Library: period plays and pauses the preview without hovering; Tab and Shift-Tab step the selected set; PLAY SELECTED plays every selected clip once in visible order and stops at the last one; POSITION shows the SportsCode value; red action pills; alphabetical CLIENT menu.
-- No transport key registers while a text field or a sheet owns input.
-- Fullscreen clip-text overlay matches the in-window overlay at Retina density.
-- Settings › DATABASES: root folder, one row per NHL database with CHOOSE / RESET, ADD DATABASE LOCATION for TAG-published season folders.
-- Send to Breakdown: editable export name. Project identity chip reads `#21 NAME`. Organizer checkbox explained.
-- Playback: media on /Volumes waits to keep up and reads 8 s ahead; stalls are logged for diagnosis.
-- Database safety: a corrupt stored value no longer blocks startup; its bytes are quarantined, the value repaired, a pre-repair snapshot taken, and a rotating daily snapshot keeps a fresh restore point. The Ghost import edge now shares the app's database and listens on loopback only.
-- Startup: cancellable 10 s restore with SKIP RESTORE; NHL reference databases enumerate and parse off the main thread; clip-write failures are surfaced; inverted clip ranges are rejected before persistence.
-
-This update adds one database table (`persisted_json_quarantine`, created on demand) and changes no project package format. Signed build 1074 is retained for rollback.
+- IQ Library clips no longer start with a black screen — the preview player's seek tolerance now matches the other playback paths.
+- Breakdown Export overlay text is smoother: all text sizes unified, raster supersampling raised to 3x, and the panel background is more solid during export.
+- NHL clip notes no longer carry SportsCode period-time stamps (e.g. "P2-18:42") that leaked from the database into the overlay and export.
+- Ghost shift import copies the .flowaipkg to ~/Desktop/FLOW/ with a canonical filename after completion.
 ]]></description>
-            <enclosure url="https://flow-updates.forcehockeyiq.com/FLOW-1.0.1081-1081.zip" length="24510682" type="application/octet-stream" sparkle:edSignature="vGLRdlTpAbwkxCYzUAs5B0DXig8CfGxzSMdFRieJD1GmyravYMIPLwNbw4gGV6aNSHOZu1eMDFVAlTEdfSMFAw=="/>
+            <enclosure url="https://flow-updates.forcehockeyiq.com/FLOW-1.0.1113-1113.zip" length="24765715" type="application/octet-stream" sparkle:edSignature="q8sPKm0w4dRZRyZufDyg/DuBucsySZQshZHhIMzsjFg9BpdD5plSEiptsIPenCZyLitv9BHP0SJfeTm/+BXXAw=="/>
         </item>
         <item>
-            <title>1.0.1074</title>
-            <pubDate>Wed, 02 Sep 2026 09:05:02 -0400</pubDate>
-            <sparkle:version>1074</sparkle:version>
-            <sparkle:shortVersionString>1.0.1074</sparkle:shortVersionString>
+            <title>1.0.1112</title>
+            <pubDate>Wed, 02 Sep 2026 22:31:09 -0400</pubDate>
+            <sparkle:version>1112</sparkle:version>
+            <sparkle:shortVersionString>1.0.1112</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# FLOW 1.0.1074
+            <description sparkle:format="markdown"><![CDATA[# FLOW 1.0.1112
 
-Built from `main` @ `dd3304b1` on 2026-09-02. Signed, notarized, operator-verified.
-
-## What changed since 1.0.729
-
-- IQ Library: period plays and pauses the preview without hovering; Tab and Shift-Tab step the selected set; PLAY SELECTED plays every selected clip once in visible order and stops at the last one.
-- No transport key registers while a text field or a sheet owns input.
-- PLAYER panel shows POSITION from SportsCode UNGROUPED values; action strip pills are red; CLIENT menu is alphabetical.
-- Fullscreen clip-text overlay matches the in-window overlay and renders at Retina density.
-- Settings › DATABASES: root folder, one row per NHL database with CHOOSE / RESET, ADD DATABASE LOCATION for TAG-published season folders.
-- Send to Breakdown: editable export name.
-- Project identity chip reads `#21 NAME`; Organizer checkbox explained; Organizer scope label no longer reads as a selection count.
-- Playback: media on /Volumes waits to keep up and reads 8 s ahead; local media unchanged.
-- Startup: cancellable 10 s restore with SKIP RESTORE; NHL reference databases enumerate and parse off the main thread; window teardown of previews and hotkey monitors; clip-write failures are surfaced, never silent; inverted clip ranges are rejected before persistence.
+- IQ Library left panel now shows up to 48 relative metrics when typing (was capped at 10).
+- Clip multi-selection: Shift+click for range, Cmd+click to toggle, Cmd+A to select all visible.
+- Database load cached: processed clips and the parameter index are serialized to JSON so subsequent loads skip Realm conversion and index rebuild.
+- Breakdown Export overlay no longer shows prohibited auto-tags (GAME DATE, PERIOD, ASSISTS, CODE, GOAL SECONDS, etc.) that the live IQ Library overlay already hid.
+- IQ Library window opens on the display showing the main FLOW window instead of whichever screen has the cursor.
+- .flowaipkg files show the FLOW icon in Finder instead of a generic document icon.
 ]]></description>
-            <enclosure url="https://flow-updates.forcehockeyiq.com/FLOW-1.0.1074-1074.zip" length="24493839" type="application/octet-stream" sparkle:edSignature="8BrqmQ3buPmeSNJb0ff/KcehPB1vjprMuhTpZ4rFTW5+/2J4APUzewVIUh7FzlEVqEnSXET9yFTIgkWiwSH9Aw=="/>
+            <enclosure url="https://flow-updates.forcehockeyiq.com/FLOW-1.0.1112-1112.zip" length="24762356" type="application/octet-stream" sparkle:edSignature="L0f63JvVJChMIWrUfGN1BkLJalN5BwbfdiLPrGK3TZX3QkgmjZYx6lzAxHl1gzpBlDUj/xC4uBA7H6XfY3zGBA=="/>
         </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 3+gvOfrlmOiAe5vJO056Y0Lw3TCTIsBAf7qSFdHmTxKKflmxxw7wBdwW86v+h+jOUmZgay16Rcd+3Q3gpMakDw==
-length: 4783
+edSignature: ytIlv1sGJafxT58FDbxeN7RhrO1vWMyk7XVxP3Nd5tVJeO1cYKFdsL4MH8G6TWyP2Ox6CvpPAqRsqMK2Ff/qBw==
+length: 3197
 -->
