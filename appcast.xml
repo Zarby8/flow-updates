@@ -6,6 +6,24 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FLOW</title>
         <item>
+            <title>1.0.1197</title>
+            <pubDate>Sun, 06 Sep 2026 13:37:12 -0400</pubDate>
+            <sparkle:version>1197</sparkle:version>
+            <sparkle:shortVersionString>1.0.1197</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# FLOW 1.0.1197
+
+- ⌘K command palette with the Feature Map and the Highlights workflow: mark a selected video-lane clip with H, persist Highlights as a client-DB tag, and jump to live workflows from the palette.
+- Ghost shift handoff receipts now identify the FLOW service correctly, so Alumni/handoff packages no longer 409 on delivery.
+- FLOW Import Edge runtime works for either owner (Chris or Shane); the installer no longer ad-hoc signs and strips quarantine after install (FLOW-INST-01).
+- Accessibility fixes for the clip strip: per-clip targets, hosted clip AX walked via NSView, and the AX tree walk that could crash on CI removed.
+- Playback and library fixes: black-frame detection, IQ Library recenter, HANDEDNESS ordering, seek tolerance, container-local bookmarks, and font registration fallback.
+- BOB cockpit responses are structured and streaming updates are coalesced; NHL provider clocks are kept out of authored notes.
+]]></description>
+            <enclosure url="https://flow-updates.forcehockeyiq.com/FLOW-1.0.1197-1197.zip" length="25115230" type="application/octet-stream" sparkle:edSignature="uzPDLuRK3lGK9u4Z2O8ic8N2/R0n1o5Q+d735Z3C+Xu9FPvmBPbLFZin2pkikhpu82e3fRHCpVfupwpCsavwDg=="/>
+        </item>
+        <item>
             <title>1.0.1113</title>
             <pubDate>Wed, 02 Sep 2026 23:23:30 -0400</pubDate>
             <sparkle:version>1113</sparkle:version>
@@ -42,6 +60,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: ytIlv1sGJafxT58FDbxeN7RhrO1vWMyk7XVxP3Nd5tVJeO1cYKFdsL4MH8G6TWyP2Ox6CvpPAqRsqMK2Ff/qBw==
-length: 3197
+edSignature: XzNYzslIH+UUg/51l/9tlnnjOo1YIYnAsxKg42tczz9Utjezl2z591MFbOIwedApq3QMPD2QzAWftJnZHXwcAA==
+length: 4888
 -->
