@@ -6,6 +6,22 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FLOW</title>
         <item>
+            <title>1.0.1236</title>
+            <pubDate>Mon, 07 Sep 2026 11:23:09 -0400</pubDate>
+            <sparkle:version>1236</sparkle:version>
+            <sparkle:shortVersionString>1.0.1236</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# FLOW 1.0.1236
+
+- App Sandbox removed; container data migrates automatically on first launch (atomic, restorable, Release-isolatable), and now skips Realm sidecars, RealmCache, and non-regular files during migration.
+- UAT candidate builds opt into test-mode isolation via the `FLOWAI_UAT_CANDIDATE` compile flag, keeping UAT runs off Chris's live data.
+- FLOW-FEATURES conformance graph added, covering menu, shortcuts, import-service HTTP, Sparkle release, and `.flowaipkg` contract.
+- App-target build fix after sandbox removal (migration entry point made public, dropped app-level `FlowLog` calls).
+]]></description>
+            <enclosure url="https://flow-updates.forcehockeyiq.com/FLOW-1.0.1236-1236.zip" length="25274896" type="application/octet-stream" sparkle:edSignature="JmOO28TZ8MX3jr7Hc7C6jlEzOg+FTrHQ9NgyeJ4rJ6oJ1M+cCz24nmhBbdfwoZn9lklmjC8qdXKj8kMVANlzDQ=="/>
+        </item>
+        <item>
             <title>1.0.1197</title>
             <pubDate>Sun, 06 Sep 2026 13:37:12 -0400</pubDate>
             <sparkle:version>1197</sparkle:version>
@@ -60,6 +76,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: XzNYzslIH+UUg/51l/9tlnnjOo1YIYnAsxKg42tczz9Utjezl2z591MFbOIwedApq3QMPD2QzAWftJnZHXwcAA==
-length: 4888
+edSignature: 4fhJgDY7/SFY9Rmcau0zTlWy2BA+vugGMZjh3Q7ZnRPEKfKxZ471ssaqm0u0QdtWaLMCLvT/Ljp441nRlZ1PBQ==
+length: 6241
 -->
