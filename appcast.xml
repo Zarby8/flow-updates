@@ -6,6 +6,19 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FLOW</title>
         <item>
+            <title>1.0.1278</title>
+            <pubDate>Tue, 08 Sep 2026 17:43:10 -0400</pubDate>
+            <sparkle:version>1278</sparkle:version>
+            <sparkle:shortVersionString>1.0.1278</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# FLOW 1.0.1278
+
+Native FLOW packages display their exact filename as the header, with no stale duplicate imported title. Provider imports use the finished movie filename for the package and saved project title. Includes the FLOW package logo in Finder.
+]]></description>
+            <enclosure url="https://flow-updates.forcehockeyiq.com/FLOW-1.0.1278-1278.zip" length="25389972" type="application/octet-stream" sparkle:edSignature="y7YrL5gj7f0enKMfjsa7lDLLvubXb/gwqK+VadQQVcCeLHvXt7ziwZNXD2KqONZG+QhKNiTK9eM9wlYd1IaPBg=="/>
+        </item>
+        <item>
             <title>1.0.1276</title>
             <pubDate>Tue, 08 Sep 2026 16:42:11 -0400</pubDate>
             <sparkle:version>1276</sparkle:version>
@@ -157,6 +170,6 @@ This app update requires the matching Import Edge service for automatic SHIFTS p
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: jvD7pnvC3ujCPSq0zrHyOw87ozFH5cTiMjYriZ629MR7U1cH4APyS5jiCcr9dBRfXg+cmCY63sibKP9whaaFDA==
-length: 11320
+edSignature: OLuoPn++TUV+Kk+o8io6WfqDUlasjPr8hX5pH2UXV5oGfv/oVZlMati7JgHn10v3Cs0gIaOB1F9+AMfL9ER6DA==
+length: 12323
 -->
