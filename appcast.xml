@@ -6,6 +6,19 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FLOW</title>
         <item>
+            <title>1.0.1269</title>
+            <pubDate>Tue, 08 Sep 2026 11:55:18 -0400</pubDate>
+            <sparkle:version>1269</sparkle:version>
+            <sparkle:shortVersionString>1.0.1269</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# FLOW 1.0.1269
+
+- Export: one global clip-text style + crystal-clear, correctly-colored output
+]]></description>
+            <enclosure url="https://flow-updates.forcehockeyiq.com/FLOW-1.0.1269-1269.zip" length="25306446" type="application/octet-stream" sparkle:edSignature="YBYonE3WqBM+zP1HV1U7ZEZ4NDn6R+yld7ZPUplKMdVWtDbbTKfwbSORP5Bd45PrRDYkFT8nsMhU8bk2q+lwBw=="/>
+        </item>
+        <item>
             <title>1.0.1265</title>
             <pubDate>Tue, 08 Sep 2026 08:49:21 -0400</pubDate>
             <sparkle:version>1265</sparkle:version>
@@ -112,6 +125,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 8dcnnnaCHsvTkEbpZlsDM8xHqdOwOht+Omp7BKtQZh0+gjxE+tml5xFno9SJsZbdKhJJJN0fxaGnWWpf304HAg==
-length: 8216
+edSignature: zzcKTtSEYqGKToL6u6sbtEJYalUtRQ/v5bdQebGh4hAoWw23qTAFLY2hG8Q9hwxRnn+5KNh/+Vc3k6g80KffAw==
+length: 9061
 -->
