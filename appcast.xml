@@ -6,6 +6,19 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FLOW</title>
         <item>
+            <title>1.0.1263</title>
+            <pubDate>Mon, 07 Sep 2026 23:55:28 -0400</pubDate>
+            <sparkle:version>1263</sparkle:version>
+            <sparkle:shortVersionString>1.0.1263</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# FLOW 1.0.1263
+
+- Organizer attached-clip export, NHL dedupe, CI NAS gate
+]]></description>
+            <enclosure url="https://flow-updates.forcehockeyiq.com/FLOW-1.0.1263-1263.zip" length="25314259" type="application/octet-stream" sparkle:edSignature="ru5Kd74BhEDn8JSMc9/Pr/vCNwpxdWepCVrHh2kx0M0hNGdLmCpEzEwCj1bo/mt4XiU5rBTGscZ7/ov8dn72Dg=="/>
+        </item>
+        <item>
             <title>1.0.1258</title>
             <pubDate>Mon, 07 Sep 2026 16:15:18 -0400</pubDate>
             <sparkle:version>1258</sparkle:version>
@@ -86,6 +99,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: OJ5e7StqxgI7l2DuYoY+x8ExzzOMe3zfw9wB5Gz2moyx5yJINFfnPSfBLvXYq9mqLbt5kKLClgPDAhvaM45/Bw==
-length: 6545
+edSignature: oZhQDAb0iDajf/0hMjGUwwTrvcJHNDaXEjd/PuuMvEBhYim6HlEHlSpVShkovs1XXxaklGcNtyHPoQHyrKQ7AA==
+length: 7369
 -->
