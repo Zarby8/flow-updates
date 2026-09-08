@@ -6,6 +6,23 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FLOW</title>
         <item>
+            <title>1.0.1274</title>
+            <pubDate>Tue, 08 Sep 2026 14:22:01 -0400</pubDate>
+            <sparkle:version>1274</sparkle:version>
+            <sparkle:shortVersionString>1.0.1274</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# FLOW 1.0.1274
+
+- Adds FLOW support for native packages created by the owner-authenticated provider-media Import Edge.
+- Shows whether a provider package is awaiting a Brain match or has an associated Brain game, with access to supplied title and artwork.
+- Preserves provider identity and authored project content when an exact Brain association is added later.
+
+This app update requires the matching Import Edge service for automatic SHIFTS package creation. Real receiver playback acceptance is tracked separately.
+]]></description>
+            <enclosure url="https://flow-updates.forcehockeyiq.com/FLOW-1.0.1274-1274.zip" length="25373774" type="application/octet-stream" sparkle:edSignature="fk61xDbvgVvinEqsAS+NSMjDbW3JqEJXX4s15qGg6/lxSfxhLr9f4A8eDj4uyMMaKcUOY8tJiI2AtwkjKm7UCw=="/>
+        </item>
+        <item>
             <title>1.0.1269</title>
             <pubDate>Tue, 08 Sep 2026 11:55:18 -0400</pubDate>
             <sparkle:version>1269</sparkle:version>
@@ -125,6 +142,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: zzcKTtSEYqGKToL6u6sbtEJYalUtRQ/v5bdQebGh4hAoWw23qTAFLY2hG8Q9hwxRnn+5KNh/+Vc3k6g80KffAw==
-length: 9061
+edSignature: dg5T4B+mdQzJxd+wRXOLCePx96Nz1373n3b6zYY62CAAfLZAgUO6EbYuMu3HeMXuhgChanX6mVO43ZS76T6WAw==
+length: 10329
 -->
