@@ -6,6 +6,19 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FLOW</title>
         <item>
+            <title>1.0.1295</title>
+            <pubDate>Thu, 10 Sep 2026 09:36:22 -0400</pubDate>
+            <sparkle:version>1295</sparkle:version>
+            <sparkle:shortVersionString>1.0.1295</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# FLOW 1.0.1295
+
+- Timeline toolbar: consistent outlined category pills
+]]></description>
+            <enclosure url="https://flow-updates.forcehockeyiq.com/FLOW-1.0.1295-1295.zip" length="25407024" type="application/octet-stream" sparkle:edSignature="+ABEj/ePktKJoA1s3QDDLjmNKhj7Wo2SBGoKNWFVP30N+RpuBvKeB9ydhGin3NoQGG9vbrwsPU8T1YpYJ3/2CQ=="/>
+        </item>
+        <item>
             <title>1.0.1293</title>
             <pubDate>Wed, 09 Sep 2026 21:38:44 -0400</pubDate>
             <sparkle:version>1293</sparkle:version>
@@ -211,6 +224,6 @@ This app update requires the matching Import Edge service for automatic SHIFTS p
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: TKb27WSbHjk7e5AJp0zsrEoxwJyLFmwsyd/JTVqLnqPI8pgoy/kA/9sVow5FnEALED1QvzZOQ2dnEa2zP2bcBw==
-length: 15213
+edSignature: GMyp6w4hvMNlh/53PiCK8Z3FSUoN1RrMuC8cypzlh/tWuYcBmeXOH9tEofqZXsQp3GEK+8NHuYJC/5owPaRwCg==
+length: 16034
 -->
