@@ -6,6 +6,19 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FLOW</title>
         <item>
+            <title>1.0.1293</title>
+            <pubDate>Wed, 09 Sep 2026 21:38:44 -0400</pubDate>
+            <sparkle:version>1293</sparkle:version>
+            <sparkle:shortVersionString>1.0.1293</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# FLOW 1.0.1293
+
+- GAME REPORT: send the coach voice for /v1/reports/generate
+]]></description>
+            <enclosure url="https://flow-updates.forcehockeyiq.com/FLOW-1.0.1293-1293.zip" length="25407583" type="application/octet-stream" sparkle:edSignature="bTrWOsWL8RMZa3uFjrLLP1O9lBzpQVqh/Y6jKkRX+yipLuAQzzFPI+RPIUBKbwQaWf1DL0aBruXtkOXXvX25Cg=="/>
+        </item>
+        <item>
             <title>1.0.1287</title>
             <pubDate>Wed, 09 Sep 2026 11:52:14 -0400</pubDate>
             <sparkle:version>1287</sparkle:version>
@@ -198,6 +211,6 @@ This app update requires the matching Import Edge service for automatic SHIFTS p
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: b0gR3dtoj4DkEE38S6DQW2BPa7kMZM20jtYGFjYTDGbNZ1otzhKwKRsOLwEC5FVWyP3x5Qpun4xnOF/NB5MmBg==
-length: 14386
+edSignature: TKb27WSbHjk7e5AJp0zsrEoxwJyLFmwsyd/JTVqLnqPI8pgoy/kA/9sVow5FnEALED1QvzZOQ2dnEa2zP2bcBw==
+length: 15213
 -->
