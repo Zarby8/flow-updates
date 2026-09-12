@@ -6,6 +6,19 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FLOW</title>
         <item>
+            <title>1.0.1340</title>
+            <pubDate>Fri, 11 Sep 2026 22:31:53 -0400</pubDate>
+            <sparkle:version>1340</sparkle:version>
+            <sparkle:shortVersionString>1.0.1340</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# FLOW 1.0.1340
+
+- Playback: vsync QA1820 chase-seek for all sub-1× (cockpit / export / floating) (#93)
+]]></description>
+            <enclosure url="https://flow-updates.forcehockeyiq.com/FLOW-1.0.1340-1340.zip" length="25421797" type="application/octet-stream" sparkle:edSignature="VGssXwGCikOGFu1Gc7V1o2t0IIM3mPIlaA6u3CcLi/zW/Y1263edLx9attYLKVpkqt7X1mKJVjv3PxugesGdCg=="/>
+        </item>
+        <item>
             <title>1.0.1306</title>
             <pubDate>Thu, 10 Sep 2026 12:31:05 -0400</pubDate>
             <sparkle:version>1306</sparkle:version>
@@ -263,6 +276,6 @@ This app update requires the matching Import Edge service for automatic SHIFTS p
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: HkGlEmXra5FVGh2XShyZqfM1Hi3+OTl8C3HkI90nOC4ZBBriGMvJCwMe70bY2+lYAe9zUT8nF8ILGT9V4lD0AA==
-length: 18557
+edSignature: 4MlukXGHftSS3iahx904ryr0NHwoSvTEJFS3giHZnEmIVcPmCpioPL5MGWdbxVTHDbVXszV2ohs0WF1LU1MABQ==
+length: 19411
 -->
