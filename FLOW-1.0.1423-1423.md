@@ -1,0 +1,11 @@
+# FLOW 1.0.1423
+- Look: new ARENA theme is the default — black ground, white plates, gold project banner, green LED timecode, gold/green fills with black type. CLASSIC (the previous look) is one click away in Settings → General → Appearance (#112)
+- Title slides: CLIENT, NHL, DEMO and TEAM title slides render inside FLOW (SLIDES button / ⌘K "Slides"), configurable in Settings → Slides; a client's title slide is rendered zero-touch when a project binds a client, and the Raycast upscaler chain reuses FLOW's artwork instead of re-rendering in Playwright (#110)
+- Clip text: four new containers — HUD BRACKET, HOLO PLATE, TICKER RAIL, GHOST TRACE — each spanning the full width of the video, alongside Corner Notch, Broadcast Bar and Glass Card; live and export renders agree (#111, full-width follow-up)
+- BOB: wears GHOST's token on every surface with the same idle / listening / thinking / speaking / done / offline states and motion as the web app; unread ring carries pending proposals and unread report reads (#109)
+- Playback: decoded-GOP frame cache for reverse slow-motion and frame stepping — reverse 0.25× presents every frame from cache on HEVC 1080p60 reels; pre-warms on pause; the cache now honours its byte budget while walking warm GOPs and never counts an empty decode as resident (#107, #120)
+- Media: FLOW-READY / REVERSE WILL JUDDER badge at import and open, with a SEND TO UPSCALER hand-off to the Raycast queue; tooltip shows the measured GOP evidence (#106, #108)
+- Client intel on open: the game report is pre-pulled, a GAMES SINCE LAST BREAKDOWN chip appears, and BOB is primed with the report before you ask (#104)
+- Diagnostics → PLAYBACK: measured slow-motion frame delivery per session (clean / dropping / display-bound) (#103)
+- Release builds now refuse to start with any FLOWAI_TEST flag set; UAT candidates are a separate build flavour (#105)
+- Test and release hardening: test processes can no longer resolve the live database, the CI harness isolates every test lane, and the scripted UAT proof pass now captures every window it claims to prove and fails honestly when it cannot (#113, #114)

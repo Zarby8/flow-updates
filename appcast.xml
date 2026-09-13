@@ -6,6 +6,27 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FLOW</title>
         <item>
+            <title>1.0.1423</title>
+            <pubDate>Sun, 13 Sep 2026 14:01:10 -0400</pubDate>
+            <sparkle:version>1423</sparkle:version>
+            <sparkle:shortVersionString>1.0.1423</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# FLOW 1.0.1423
+- Look: new ARENA theme is the default — black ground, white plates, gold project banner, green LED timecode, gold/green fills with black type. CLASSIC (the previous look) is one click away in Settings → General → Appearance (#112)
+- Title slides: CLIENT, NHL, DEMO and TEAM title slides render inside FLOW (SLIDES button / ⌘K "Slides"), configurable in Settings → Slides; a client's title slide is rendered zero-touch when a project binds a client, and the Raycast upscaler chain reuses FLOW's artwork instead of re-rendering in Playwright (#110)
+- Clip text: four new containers — HUD BRACKET, HOLO PLATE, TICKER RAIL, GHOST TRACE — each spanning the full width of the video, alongside Corner Notch, Broadcast Bar and Glass Card; live and export renders agree (#111, full-width follow-up)
+- BOB: wears GHOST's token on every surface with the same idle / listening / thinking / speaking / done / offline states and motion as the web app; unread ring carries pending proposals and unread report reads (#109)
+- Playback: decoded-GOP frame cache for reverse slow-motion and frame stepping — reverse 0.25× presents every frame from cache on HEVC 1080p60 reels; pre-warms on pause; the cache now honours its byte budget while walking warm GOPs and never counts an empty decode as resident (#107, #120)
+- Media: FLOW-READY / REVERSE WILL JUDDER badge at import and open, with a SEND TO UPSCALER hand-off to the Raycast queue; tooltip shows the measured GOP evidence (#106, #108)
+- Client intel on open: the game report is pre-pulled, a GAMES SINCE LAST BREAKDOWN chip appears, and BOB is primed with the report before you ask (#104)
+- Diagnostics → PLAYBACK: measured slow-motion frame delivery per session (clean / dropping / display-bound) (#103)
+- Release builds now refuse to start with any FLOWAI_TEST flag set; UAT candidates are a separate build flavour (#105)
+- Test and release hardening: test processes can no longer resolve the live database, the CI harness isolates every test lane, and the scripted UAT proof pass now captures every window it claims to prove and fails honestly when it cannot (#113, #114)
+]]></description>
+            <enclosure url="https://flow-updates.forcehockeyiq.com/FLOW-1.0.1423-1423.zip" length="26743233" type="application/octet-stream" sparkle:edSignature="jSogwdrL3mJxNrjURVc3zzmWEm7mfj+FuPvmUjjMqz4OjYVP8qXxq93KYoPR0tZ2tlhzQTkoM4lzbssdlHawBg=="/>
+        </item>
+        <item>
             <title>1.0.1359</title>
             <pubDate>Sat, 12 Sep 2026 20:15:54 -0400</pubDate>
             <sparkle:version>1359</sparkle:version>
@@ -293,6 +314,6 @@ This app update requires the matching Import Edge service for automatic SHIFTS p
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: c0BTO7Cp7Z79cGMe9JC0GckIivHJ8O10lZJCMVlZBZLLC4C0Kc0Lc0Sd8a+k64bRdlc3Vr2yI1EsjU78msrVCQ==
-length: 21255
+edSignature: KcWwf3hUobgN+nqFBcIYh0s+lf+9VMGryIPjtHmeActNk2d0PEKg2yLwJaBu7JSLGj5f3Nv0IQjabTna1F0dCg==
+length: 24153
 -->
