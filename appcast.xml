@@ -6,6 +6,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FLOW</title>
         <item>
+            <title>1.0.1457</title>
+            <pubDate>Mon, 14 Sep 2026 10:41:51 -0400</pubDate>
+            <sparkle:version>1457</sparkle:version>
+            <sparkle:shortVersionString>1.0.1457</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# FLOW 1.0.1457
+
+- PRODUCE BREAKDOWN brings assembly, graphics and watermark controls into FLOW.
+- Clip notes export at full opacity and completed breakdowns reveal in Finder.
+- Code buttons and labels stay editable; authored team labels retain corrections.
+- Enter opens selected clip notes; Enter saves and resumes playback, Shift+Enter adds a line.
+- Database positives lock and advance without the required rating dialog.
+- Meeting notes add goals, assists and blocks, bounded stat controls, and a separate COACHES NOTES PDF draft.
+- Export names disambiguate clients sharing a last name.
+]]></description>
+            <enclosure url="https://flow-updates.forcehockeyiq.com/FLOW-1.0.1457-1457.zip" length="27565388" type="application/octet-stream" sparkle:edSignature="Sp/4vSj4PCEL6L3FAXo432Ad/nlRfHQuN5FEd0fHI6pYbXXAi8UhhwgzsZS0w9WhuO1W1FvbGxWD9pWNdH1ABA=="/>
+        </item>
+        <item>
             <title>1.0.1423</title>
             <pubDate>Sun, 13 Sep 2026 14:01:10 -0400</pubDate>
             <sparkle:version>1423</sparkle:version>
@@ -314,6 +333,6 @@ This app update requires the matching Import Edge service for automatic SHIFTS p
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: KcWwf3hUobgN+nqFBcIYh0s+lf+9VMGryIPjtHmeActNk2d0PEKg2yLwJaBu7JSLGj5f3Nv0IQjabTna1F0dCg==
-length: 24153
+edSignature: 3wSLQk+dEB5A9rQP35406cV8n6a70S26MEL/IeBpeAGyOKoKacNmGhXCpVzOgD50YEbnPadm4CSvOG0lj0ntBQ==
+length: 25495
 -->
