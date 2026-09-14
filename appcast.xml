@@ -6,6 +6,19 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FLOW</title>
         <item>
+            <title>1.0.1461</title>
+            <pubDate>Mon, 14 Sep 2026 13:44:51 -0400</pubDate>
+            <sparkle:version>1461</sparkle:version>
+            <sparkle:shortVersionString>1.0.1461</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# FLOW 1.0.1461
+- PRODUCE BREAKDOWN → FILE TO NAS now works: completed client breakdowns file into the correct NAS game folder (Chris-Clients_<season>/<Client>/<Season>/<Game>_<date>), which the old build could never find. Set NAS FILING to AUTOMATIC or ASK EVERY TIME in the export panel.
+- NAS filing now shows a FILING TO NAS… status while it copies and a "Filed to NAS" confirmation when done, instead of failing silently.
+]]></description>
+            <enclosure url="https://flow-updates.forcehockeyiq.com/FLOW-1.0.1461-1461.zip" length="27566268" type="application/octet-stream" sparkle:edSignature="Q8TnPGk9IHVvRbOwjU0sBhL8VQyfQdLTCkQxK43wYIiqxprQF5fQ+b1flZc771SiSxsWlGf59TdQsWggRtG6DQ=="/>
+        </item>
+        <item>
             <title>1.0.1457</title>
             <pubDate>Mon, 14 Sep 2026 10:41:51 -0400</pubDate>
             <sparkle:version>1457</sparkle:version>
@@ -333,6 +346,6 @@ This app update requires the matching Import Edge service for automatic SHIFTS p
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 3wSLQk+dEB5A9rQP35406cV8n6a70S26MEL/IeBpeAGyOKoKacNmGhXCpVzOgD50YEbnPadm4CSvOG0lj0ntBQ==
-length: 25495
+edSignature: ZnHFIl8rMNJE/y0Y7CsNNTD58RNqfoiL3Gg5M2itEET56huG4+DIrDtOk69cjEkUL71HpZA0elKWa1Qq4iDaDQ==
+length: 26675
 -->
