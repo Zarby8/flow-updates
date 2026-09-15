@@ -6,6 +6,35 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FLOW</title>
         <item>
+            <title>1.0.1464</title>
+            <pubDate>Tue, 15 Sep 2026 02:10:38 -0400</pubDate>
+            <sparkle:version>1464</sparkle:version>
+            <sparkle:shortVersionString>1.0.1464</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# FLOW 1.0.1464
+
+**Cockpit panels always fit the window.** The code rail, the stage, and the BOB
+panel now share the window through a real width budget. If your saved panel
+widths are wider than the display, the panels give width back to the stage
+instead of pushing BOB off the screen — that is why BOB's read could be cut off
+and the panel could not be brought back in full-screen mode. Your saved layout
+is never rewritten; the panels return to their sizes as soon as the window can
+hold them.
+
+**Timeline toolbar wraps.** The five brand groups (BUILD · REVIEW · NOTES ·
+INTEL · DELIVER) stay on one evenly spread row when they fit and wrap onto
+another line when they do not, instead of running off the right edge.
+
+**Timeline row names stay readable.** A clip that starts before the visible
+window is clipped to its own lane, so it can no longer paint over the row name.
+
+**Full-screen identity stays centred.** The project title above the stage is
+centred on the stage you actually see, including when the panels yield.
+]]></description>
+            <enclosure url="https://flow-updates.forcehockeyiq.com/FLOW-1.0.1464-1464.zip" length="26847403" type="application/octet-stream" sparkle:edSignature="vAkKHCkOXYpJQYE39JEdfuNEtrDkbn7nrLMyJut35BxvlJPlHgUhyl7ylgDwuAUWb8Y6Qnc8xi8HpOq0x+K9DA=="/>
+        </item>
+        <item>
             <title>1.0.1461</title>
             <pubDate>Mon, 14 Sep 2026 13:44:51 -0400</pubDate>
             <sparkle:version>1461</sparkle:version>
@@ -346,6 +375,6 @@ This app update requires the matching Import Edge service for automatic SHIFTS p
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: ZnHFIl8rMNJE/y0Y7CsNNTD58RNqfoiL3Gg5M2itEET56huG4+DIrDtOk69cjEkUL71HpZA0elKWa1Qq4iDaDQ==
-length: 26675
+edSignature: Q7PW5if5oH+DzDB8/xJrHHrjn/7Bi6nooNQZ8rWehf06F+fALfbG5Il18ELHIDmZNi4hnvo+O48HDsPJFputDg==
+length: 28456
 -->
