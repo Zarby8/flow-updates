@@ -6,6 +6,33 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FLOW</title>
         <item>
+            <title>1.0.1465</title>
+            <pubDate>Tue, 15 Sep 2026 03:37:16 -0400</pubDate>
+            <sparkle:version>1465</sparkle:version>
+            <sparkle:shortVersionString>1.0.1465</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# FLOW 1.0.1465
+
+**You can now see the NAS copy happen.** After PRODUCE BREAKDOWN the filing step
+used to give no sign of life, so there was no way to tell whether your movie
+actually reached the NAS. Now the export sheet shows the real copy while it runs
+— the destination, how much has moved, and the percentage — and the result is
+reported in FLOW itself, not only inside a sheet that closes.
+
+**Filing is on by default.** Completed client breakdowns are filed automatically
+into their existing game folder. If it cannot file, it says so with the reason and
+keeps your local movie. If filing is switched off, the completion sheet states
+that clearly and gives you **FILE TO NAS NOW** in one click, so a finished export
+never looks like a delivery that quietly did nothing.
+
+**Safer by construction.** FLOW still never creates or guesses a client or game
+folder, and it refuses to overwrite a different file that is already sitting in
+the game folder.
+]]></description>
+            <enclosure url="https://flow-updates.forcehockeyiq.com/FLOW-1.0.1465-1465.zip" length="26872822" type="application/octet-stream" sparkle:edSignature="1pdZ9dR/A9S3knVhDcRYMZ50dRE7jibfp2+fw0YcVSvddSE0K+oEG3kibcg7sjDCJmXW8i9679VA3bM/L7VQDw=="/>
+        </item>
+        <item>
             <title>1.0.1464</title>
             <pubDate>Tue, 15 Sep 2026 02:10:38 -0400</pubDate>
             <sparkle:version>1464</sparkle:version>
@@ -375,6 +402,6 @@ This app update requires the matching Import Edge service for automatic SHIFTS p
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: Q7PW5if5oH+DzDB8/xJrHHrjn/7Bi6nooNQZ8rWehf06F+fALfbG5Il18ELHIDmZNi4hnvo+O48HDsPJFputDg==
-length: 28456
+edSignature: GG1ADMq5FtmeF7EJ//NWims9ST8raimv2ec7jOqTPXi30Oc2aqK6kHzDP0HsUxF7cGUKwOeFcrzsgiaKLSrmBQ==
+length: 30163
 -->
