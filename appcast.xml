@@ -6,6 +6,30 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FLOW</title>
         <item>
+            <title>1.0.1467</title>
+            <pubDate>Tue, 15 Sep 2026 10:15:16 -0400</pubDate>
+            <sparkle:version>1467</sparkle:version>
+            <sparkle:shortVersionString>1.0.1467</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# FLOW 1.0.1467
+
+**The breakdown progress bar now tells the truth.** It used to climb to 100% and
+then drop back to 0% part-way through, because each internal step reported its own
+percentage. It is now one bar for the whole job: it names the row it is on
+(`ROW 2 OF 5`) and the step it is running (rendering clips, assembling the row,
+embedding chapters), and it only ever moves forward.
+
+**NAS delivery is more reliable and no longer silent about failure.** A copy that
+is interrupted (for example by a dropped network session) is retried once
+automatically instead of failing, and if it still cannot finish it says so with
+the reason, keeps your local movie, and clears its own temporary files so nothing
+is left behind in the game folder. If the movie is already on the NAS, FLOW now
+says so and tidies any leftovers from an earlier attempt.
+]]></description>
+            <enclosure url="https://flow-updates.forcehockeyiq.com/FLOW-1.0.1467-1467.zip" length="26879759" type="application/octet-stream" sparkle:edSignature="Xn8FHtw2XNM4mfeY5X/zMmHokw1lnpUd0qRULEdmSn00JRGoJbVn/+em+mTL+83JH2J6x1orAmmVgZAg9RH0AQ=="/>
+        </item>
+        <item>
             <title>1.0.1465</title>
             <pubDate>Tue, 15 Sep 2026 03:37:16 -0400</pubDate>
             <sparkle:version>1465</sparkle:version>
@@ -402,6 +426,6 @@ This app update requires the matching Import Edge service for automatic SHIFTS p
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: GG1ADMq5FtmeF7EJ//NWims9ST8raimv2ec7jOqTPXi30Oc2aqK6kHzDP0HsUxF7cGUKwOeFcrzsgiaKLSrmBQ==
-length: 30163
+edSignature: 3P/WOT0XU/5W7Sjw+FQ1MxqS//VDobIXfchz3nic1IASB0qYWC7HevMo0FX5OYFFSoomfr0lQUNmW68gNbMIDw==
+length: 31758
 -->
