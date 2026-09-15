@@ -6,6 +6,35 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FLOW</title>
         <item>
+            <title>1.0.1468</title>
+            <pubDate>Tue, 15 Sep 2026 13:13:51 -0400</pubDate>
+            <sparkle:version>1468</sparkle:version>
+            <sparkle:shortVersionString>1.0.1468</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# FLOW 1.0.1468
+
+**Each Mac files into its own NAS space.** FLOW now resolves its owner — Shane on
+Shane's Mac, Chris on Chris's — and uses that to choose the client folder it files
+breakdowns into, the taxonomy export it reads, and the week-prep folders it writes.
+Before this, those paths were fixed to Chris's tree, which on Shane's Mac would have
+sent his breakdowns into Chris's clients. FLOW now refuses outright to file into the
+other coach's private root.
+
+**Settings → Diagnostics shows the wiring.** A new MACHINE WIRING block lists the
+coach, the private NAS root, the client roster it resolved, whether that roster is
+mounted, the fallback folders and the taxonomy export — and COPY DIAGNOSTICS leads
+with the same line. So "is this Mac wired correctly?" is answerable on the machine
+itself.
+
+**Also in this build:** the roster lookup prefers a folder that actually contains
+clients (Shane's machine has an empty older-season folder next to a populated one),
+and an override exists for operators: `FORCEIQ_FLOW_OWNER`,
+`FORCEIQ_FLOW_CLIENT_ROSTER_ROOT`, `FORCEIQ_FLOW_NAS_PRIVATE_ROOT`.
+]]></description>
+            <enclosure url="https://flow-updates.forcehockeyiq.com/FLOW-1.0.1468-1468.zip" length="26893574" type="application/octet-stream" sparkle:edSignature="jRKOAHR2avLB3Nt9UqrsBXLO6/XXgiZH9Qqu2zwNZZiqKsZIAPtavN48Axl1N9EXR4q/6q9/Mci1U2WNddosDA=="/>
+        </item>
+        <item>
             <title>1.0.1467</title>
             <pubDate>Tue, 15 Sep 2026 10:15:16 -0400</pubDate>
             <sparkle:version>1467</sparkle:version>
@@ -426,6 +455,6 @@ This app update requires the matching Import Edge service for automatic SHIFTS p
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 3P/WOT0XU/5W7Sjw+FQ1MxqS//VDobIXfchz3nic1IASB0qYWC7HevMo0FX5OYFFSoomfr0lQUNmW68gNbMIDw==
-length: 31758
+edSignature: RpBVJPf4CEV/qj6EhKZ2BBN2JuS4iz4VX4+MSSa6LnAxcL3Vu0RKwwQg+GVHhI/jGgCNHNMzexUS11TduRanBA==
+length: 33614
 -->
