@@ -6,6 +6,44 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FLOW</title>
         <item>
+            <title>1.0.1479</title>
+            <pubDate>Wed, 16 Sep 2026 07:35:18 -0400</pubDate>
+            <sparkle:version>1479</sparkle:version>
+            <sparkle:shortVersionString>1.0.1479</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# FLOW 1.0.1479
+
+**Every label is now editable — and the defaults are untouched.** The three
+profile labels at the top of the Code Window (player, opponent, date of game) used
+to be read-only. Now every label is the same kind of row: click one to rewrite it,
+drag the arrows to reorder, ✕ to remove it, and RESTORE DEFAULTS to put the three
+back in order. A label you have not touched still follows the client profile, so
+correcting a jersey number or an opponent updates every clip — and a label you have
+written keeps what you wrote. Hiding a row is not a delete: the three can always
+come back. Labels stay with the client, not the window tab, and your existing labels
+carry over untouched.
+
+**The rail's LABELS list renames in place.** Tap a label in LABELS · DRAG TO ORDER
+(or use RENAME LABEL in its menu) to change its name — which is exactly what burns
+into clip text and what the stringing model keys on. The pencil still opens the full
+editor for colour and stringing. So a label such as `#PlayerName` can be renamed,
+unstrung or deleted without leaving the rail.
+
+**Create a clip, press Enter, start typing.** Every way of making a clip — the marked
+clip, a single code-button press, and the two-press range — now selects what it made
+and hands the timeline the keyboard, so Enter drops you straight into that clip's
+note. Before this, a clip made by *clicking* a button left Enter with nothing to do.
+
+**Manual cuts are accepted.** A hand-cut game video with no InStat record can now be
+registered through the provider-media intake. It carries owner-authored
+`manual-…` route keys instead of provider IDs, so a manual cut can never be mistaken
+for a provider record, and re-running the same cut replays it rather than creating a
+second one.
+]]></description>
+            <enclosure url="https://flow-updates.forcehockeyiq.com/FLOW-1.0.1479-1479.zip" length="26906558" type="application/octet-stream" sparkle:edSignature="5ojb3tiXrJ8bAryHpC6AC7t6TajUQ9Mk/uxJlg+5HVcgAGsqNHjQVDu5MOxttNXOJSMwe/c64BOL7rSIicQoBg=="/>
+        </item>
+        <item>
             <title>1.0.1468</title>
             <pubDate>Tue, 15 Sep 2026 13:13:51 -0400</pubDate>
             <sparkle:version>1468</sparkle:version>
@@ -455,6 +493,6 @@ This app update requires the matching Import Edge service for automatic SHIFTS p
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: RpBVJPf4CEV/qj6EhKZ2BBN2JuS4iz4VX4+MSSa6LnAxcL3Vu0RKwwQg+GVHhI/jGgCNHNMzexUS11TduRanBA==
-length: 33614
+edSignature: fn1d0oqaPPsC8EUqvL80pa4dDVpObQ1I7Y8fwDnAH3q7HKkRN8ihhYTGi0y4YwbvXZEPhmyzdq3q2dET42EHDw==
+length: 36131
 -->
