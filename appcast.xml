@@ -6,6 +6,37 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FLOW</title>
         <item>
+            <title>1.0.1485</title>
+            <pubDate>Wed, 16 Sep 2026 10:26:11 -0400</pubDate>
+            <sparkle:version>1485</sparkle:version>
+            <sparkle:shortVersionString>1.0.1485</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# FLOW 1.0.1485
+
+**Updates install again.** FLOW refuses to hand off to Sparkle until it has
+sealed a backup of the live database plus every project package, and that check
+had a flaw: packages FLOW creates itself (Ghost SHIFTS imports, provider-media
+intake, manual cuts) store an "app-owned" bookmark, and the backup asked for all
+of them as if they were operator-chosen ones. A single such package therefore
+refused the whole update on any machine that had ever imported one — the update
+sat on *Installation Postponed* with no way forward. The check now accepts both
+bookmark kinds, and if a package genuinely cannot be reopened it says so by name
+and by cause instead of blaming the backup.
+
+**The player line in clip text is just the player.** A clip's burned text used to
+be able to read `#PLAYERNAME: #11 HENRY MEIER`. Editing a seeded `#PlayerName`
+label stored the label's name as `#PlayerName: <the resolved value>`, and that
+whole string then became part of the clip. The player row now renders the
+identity alone — `#11 HENRY MEIER` — whether the prefix arrives through the
+label's name or its value, and it keeps its place at the front of the LABELS
+order. Clips already stamped that way read correctly; nothing on disk is
+rewritten. The other three seeded rows keep their self-explanatory `TEAM:`,
+`OPPONENT:` and `GAME DATE:` prefixes.
+]]></description>
+            <enclosure url="https://flow-updates.forcehockeyiq.com/FLOW-1.0.1485-1485.zip" length="26910609" type="application/octet-stream" sparkle:edSignature="Yl/a+8hAGrDs46cHoBceQYyS1pQXXEZhKom7qaUiNj8cIu8DcphWtjebYfC/ed4ppL98W5HQoft6gNqEn/zzBg=="/>
+        </item>
+        <item>
             <title>1.0.1479</title>
             <pubDate>Wed, 16 Sep 2026 07:35:18 -0400</pubDate>
             <sparkle:version>1479</sparkle:version>
@@ -493,6 +524,6 @@ This app update requires the matching Import Edge service for automatic SHIFTS p
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: fn1d0oqaPPsC8EUqvL80pa4dDVpObQ1I7Y8fwDnAH3q7HKkRN8ihhYTGi0y4YwbvXZEPhmyzdq3q2dET42EHDw==
-length: 36131
+edSignature: 3WS6YF0Bwq++XAiJB9Q7MRIt1Sk+3j08jcL6zIP+C9jLgBWrhHYTm/AmI43Mtle9+Yh3VwyWZRNsNHThEzk/BA==
+length: 38238
 -->
