@@ -6,6 +6,51 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FLOW</title>
         <item>
+            <title>1.0.1525</title>
+            <pubDate>Thu, 17 Sep 2026 19:13:53 -0400</pubDate>
+            <sparkle:version>1525</sparkle:version>
+            <sparkle:shortVersionString>1.0.1525</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# FLOW 1.0.1525
+
+**A locked clip can be corrected.** Locking a clip into a client database was a
+one-way door: the edit worked on screen, the clip never changed, and the fix died
+with the window. It now lands, the header offers CORRECT CLIP beside the LOCKED
+badge, and the commit button says what it does — UPDATE DATABASE CLIP. LOCK still
+saves and advances in one step.
+
+**The GAME REPORT eye stays green.** FLOW looked for a report by its template
+name ("game_report") while Ghost titles the file with its human name
+("… - Game Report - ….pdf"), so a report already saved in the package was
+invisible and the eye greyed out until you asked for it again. Both sides are now
+compared on the same folded key, so a report that exists — even offline — lights
+the eye.
+
+**Jev suggests the tags, from your own taxonomy.** Inside the DATABASE POSITIVES
+palette — the same palette, unchanged — a strip of suggested terms appears above
+the results, chosen from your taxonomy by what the clip and its neighbours
+support. Press the number key or Return to take one; ignore them and type as you
+always have. It never invents a term FLOW did not offer, it never applies anything
+by itself, and if TypeSafe is slow or unavailable it simply shows nothing.
+
+**QUICK DATABASE: tag a positive clip without leaving the timeline.** Select
+the clip, press ⌘⇧P, and the DATABASE POSITIVES palette opens already on that
+clip — the same palette, the same search, the same keys. ⌘↩ LOCK saves it,
+confirms, and clears the window; you stay exactly where you were. The old
+row-picker pass is untouched for batch work, and the hotkey is yours to change in
+Settings > Shortcuts.
+
+**Coaches Notes print with the breakdown, and look like ForceIQ.** The notes PDF
+now rides the breakdown export into the client's game folder beside the movie,
+carries the game rating you set in MEETING NOTES (and says UNRATED when there
+isn't one, rather than inventing a number), and is rebuilt on the 2026 brand: the
+real FORCE lightning lockup, black and white and gold, JetBrains Mono, page
+numbers.
+]]></description>
+            <enclosure url="https://flow-updates.forcehockeyiq.com/FLOW-1.0.1525-1525.zip" length="27012934" type="application/octet-stream" sparkle:edSignature="bolPXfD8li2704cZPx8ijouZxqTnoVGd3YIac+UmRqdC/WIpwnuAkRNWKT6lCXWqfdhvDfgg+dl8OLzRHwieCQ=="/>
+        </item>
+        <item>
             <title>1.0.1523</title>
             <pubDate>Thu, 17 Sep 2026 18:00:14 -0400</pubDate>
             <sparkle:version>1523</sparkle:version>
@@ -675,6 +720,6 @@ This app update requires the matching Import Edge service for automatic SHIFTS p
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: raUcagmx+7kjEN02EopLl4SxlWETE437EzFe1SV352AUrqWtoFkWdySZbamQBMItfN78voxUZ3sF7tN80j0eAA==
-length: 47904
+edSignature: RewYQdyMamXfHKh73NkCLdG4T7ycMS78KjBjO2fR7dMfx6sT/jWt3fMrkSAQGUtw3TnQ59T82LBMkmP71CsZDg==
+length: 50736
 -->
