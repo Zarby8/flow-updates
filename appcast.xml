@@ -6,6 +6,37 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FLOW</title>
         <item>
+            <title>1.0.1518</title>
+            <pubDate>Thu, 17 Sep 2026 15:00:19 -0400</pubDate>
+            <sparkle:version>1518</sparkle:version>
+            <sparkle:shortVersionString>1.0.1518</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# FLOW 1.0.1518
+
+**A locked clip can be corrected.** Locking a clip into a client database was a
+one-way door: the edit worked on screen, the clip never changed, and the fix died
+with the window. It now lands, the header offers CORRECT CLIP beside the LOCKED
+badge, and the commit button says what it does — UPDATE DATABASE CLIP. LOCK still
+saves and advances in one step.
+
+**The GAME REPORT eye stays green.** FLOW looked for a report by its template
+name ("game_report") while Ghost titles the file with its human name
+("… - Game Report - ….pdf"), so a report already saved in the package was
+invisible and the eye greyed out until you asked for it again. Both sides are now
+compared on the same folded key, so a report that exists — even offline — lights
+the eye.
+
+**Coaches Notes print with the breakdown, and look like ForceIQ.** The notes PDF
+now rides the breakdown export into the client's game folder beside the movie,
+carries the game rating you set in MEETING NOTES (and says UNRATED when there
+isn't one, rather than inventing a number), and is rebuilt on the 2026 brand: the
+real FORCE lightning lockup, black and white and gold, JetBrains Mono, page
+numbers.
+]]></description>
+            <enclosure url="https://flow-updates.forcehockeyiq.com/FLOW-1.0.1518-1518.zip" length="26952361" type="application/octet-stream" sparkle:edSignature="ksauatp+QvC5GQuHQKkHnOdM/JQ6DQDfxGcaAGlgqGIL+JhcuPYTPaefJdMwcJHd1HPDixmx8018sNq5Df/bAg=="/>
+        </item>
+        <item>
             <title>1.0.1507</title>
             <pubDate>Thu, 17 Sep 2026 12:04:51 -0400</pubDate>
             <sparkle:version>1507</sparkle:version>
@@ -606,6 +637,6 @@ This app update requires the matching Import Edge service for automatic SHIFTS p
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: egP+nnGeYLlImUwcKAiT39R3ZldyCGVfrub6XgRAQXid7Q1q+QLEQvcgG+ik4IA3euTeeXs7nCsBAjOyY5u6DA==
-length: 43621
+edSignature: 3K/PZTSw2UL68guxldT5EuT7kzamATwdlAFQ7qB5gAgGRjTd0Hsi8FWD2DZ8wX0dbxM/JN7JZ2YAxRH4KOr/Ag==
+length: 45553
 -->
