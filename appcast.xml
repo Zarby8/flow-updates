@@ -6,6 +6,62 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FLOW</title>
         <item>
+            <title>1.0.1532</title>
+            <pubDate>Fri, 18 Sep 2026 11:34:53 -0400</pubDate>
+            <sparkle:version>1532</sparkle:version>
+            <sparkle:shortVersionString>1.0.1532</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# FLOW 1.0.1532
+
+**A locked clip can be corrected.** Locking a clip into a client database was a
+one-way door: the edit worked on screen, the clip never changed, and the fix died
+with the window. It now lands, the header offers CORRECT CLIP beside the LOCKED
+badge, and the commit button says what it does — UPDATE DATABASE CLIP. LOCK still
+saves and advances in one step.
+
+**The GAME REPORT eye stays green.** FLOW looked for a report by its template
+name ("game_report") while Ghost titles the file with its human name
+("… - Game Report - ….pdf"), so a report already saved in the package was
+invisible and the eye greyed out until you asked for it again. Both sides are now
+compared on the same folded key, so a report that exists — even offline — lights
+the eye.
+
+**QUICK DATABASE: tag a positive clip without leaving the timeline.** Select
+the clip, press ⌘⇧P, and the DATABASE POSITIVES palette opens already on that
+clip — the same palette, the same search, the same keys. ⌘↩ LOCK saves it,
+confirms, and clears the window; you stay exactly where you were. The old
+row-picker pass is untouched for batch work, and the hotkey is yours to change in
+Settings > Shortcuts.
+
+**Coaches Notes print with the breakdown, and look like ForceIQ.** The notes PDF
+now rides the breakdown export into the client's game folder beside the movie,
+carries the game rating you set in MEETING NOTES (and says UNRATED when there
+isn't one, rather than inventing a number), and is rebuilt on the 2026 brand: the
+real FORCE lightning lockup, black and white and gold, JetBrains Mono, page
+numbers. The body no longer prints on top of its own header, the lockup is
+upright, and GAME / OPPONENT / GAME DATE each get their own row.
+
+**No tag you pick is ever dropped, and the palette speaks this season's
+language.** Locking a clip used to write back only the tags the fuzzy matcher
+happened to return — seven chosen tags could land as four, silently. Tag
+resolution is now exact, anything outside the corpus is preserved rather than
+discarded, and the palette refuses to close on a tag it cannot account for. The
+bundled corpus is rebuilt from the current TAG export: PRESSURE READ (with SHOT
+LANE), TECHNIQUE, O-ZONE, RUSH, BREAKOUT and GOAL LOCATION are all present.
+
+**Wireless updates work again.** Every automatic update for the last week
+downloaded correctly, verified its signature, and then failed to install with
+"Update Backup Failed / Installation Postponed". The updater was routing the
+install through a Sparkle helper built for sandboxed apps; FLOW has not been
+sandboxed since September 6, so that helper could not replace the app in
+Applications. FLOW now installs the update itself, the way a directly
+distributed app should. This release must be installed by hand once; after that,
+"Check for Updates…" works normally.
+]]></description>
+            <enclosure url="https://flow-updates.forcehockeyiq.com/FLOW-1.0.1532-1532.zip" length="27028477" type="application/octet-stream" sparkle:edSignature="KQ8GW3fe18Elj9pDEOV++2BYBgmhpcEBmJJIMBDGDG14IrLUUDK9xNd5hyQKkS/DfUigUcujZjDKXE4Ad2iBCA=="/>
+        </item>
+        <item>
             <title>1.0.1525</title>
             <pubDate>Thu, 17 Sep 2026 19:13:53 -0400</pubDate>
             <sparkle:version>1525</sparkle:version>
@@ -720,6 +776,6 @@ This app update requires the matching Import Edge service for automatic SHIFTS p
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: RewYQdyMamXfHKh73NkCLdG4T7ycMS78KjBjO2fR7dMfx6sT/jWt3fMrkSAQGUtw3TnQ59T82LBMkmP71CsZDg==
-length: 50736
+edSignature: LxKGbH/mDxKEdJpJJCZMf9OcUornKiTibHjDEaGwLR5rFDy4CLJuhvZZcAndfLjQ+/sH17MZZwTXImkEloxuAQ==
+length: 54328
 -->
