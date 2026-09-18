@@ -6,6 +6,38 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FLOW</title>
         <item>
+            <title>1.0.1539</title>
+            <pubDate>Fri, 18 Sep 2026 13:03:17 -0400</pubDate>
+            <sparkle:version>1539</sparkle:version>
+            <sparkle:shortVersionString>1.0.1539</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# FLOW 1.0.1539
+
+**Coaches Notes print cleanly, page after page.** Two layout faults are fixed.
+A section title could land on the last line of a page with its content overleaf,
+so WEEKLY GOALS appeared at the foot of page one with the goals themselves on
+page two — the title now moves to open the next page instead. And the frame that
+performs that move was measuring from the wrong origin, which lowered the body's
+bottom edge by 84 points and printed the tail of the notes straight through the
+footer. Both are covered by tests that were checked in both directions: each one
+fails when its fix is removed.
+
+**GAME / OPPONENT reads like a name, not a filename.** A token stored as
+AtlanticCoastAcademy16UNational now prints as Atlantic Coast Academy 16U
+National.
+
+**Wireless updates work again.** Every automatic update for the past week
+downloaded correctly, verified its signature, and then failed to install with
+"Update Backup Failed / Installation Postponed". FLOW's updater was routing the
+install through a Sparkle helper built for sandboxed apps; FLOW has not been
+sandboxed since September 6, so that helper could not replace the app in
+Applications. FLOW now performs the install itself, the way a directly
+distributed app should.
+]]></description>
+            <enclosure url="https://flow-updates.forcehockeyiq.com/FLOW-1.0.1539-1539.zip" length="27026381" type="application/octet-stream" sparkle:edSignature="EXOq2aUgMuszcwbucx73zKA948m3L0N5LQ/E9ekBhFSx91Eyux6B3IrBX6Vaq/8j3DFeEwb1RxjAU7KRtNYICw=="/>
+        </item>
+        <item>
             <title>1.0.1532</title>
             <pubDate>Fri, 18 Sep 2026 11:34:53 -0400</pubDate>
             <sparkle:version>1532</sparkle:version>
@@ -776,6 +808,6 @@ This app update requires the matching Import Edge service for automatic SHIFTS p
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: LxKGbH/mDxKEdJpJJCZMf9OcUornKiTibHjDEaGwLR5rFDy4CLJuhvZZcAndfLjQ+/sH17MZZwTXImkEloxuAQ==
-length: 54328
+edSignature: C6BOmMXJKb+rPn1nhpZirWQfGmPNFcJ661hCu5rwKNZhRO9vl7Fal1dXemy1IwZdbLklOEmwD0vwdAea1k5XAw==
+length: 56323
 -->
