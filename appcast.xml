@@ -6,6 +6,38 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>FLOW</title>
         <item>
+            <title>1.0.1550</title>
+            <pubDate>Mon, 21 Sep 2026 12:26:42 -0400</pubDate>
+            <sparkle:version>1550</sparkle:version>
+            <sparkle:shortVersionString>1.0.1550</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# FLOW 1.0.1550
+
+**SINCE LAST BREAKDOWN is one click.** When FLOW can place the client's last
+breakdown on an exact Brain game, the button goes straight to Ghost's Since Last
+Breakdown report. That report covers every game since the last breakdown in one
+document. It opens in FLOW's viewer, and BOB reads it right away: one synthesis
+of the whole window, plus coaching targets for the game loaded in FLOW. The eye
+under the button now builds the report instead of saying no PDF exists yet.
+
+**FLOW says which breakdown it cannot place.** If Brain has no game for the
+client's most recent breakdown project, FLOW names that project instead of
+quietly measuring from an older breakdown. An older breakdown would have
+stretched the report back over games you had already covered.
+
+**Jev picks what to lead with in COACHES NOTES.** A JEV · TEACHABLE NOW strip
+at the top of the notes sheet suggests which of your own note lines to open
+with. Pressing a suggestion only moves that line to the top; Jev never rewrites,
+rewords or adds text, and nothing from it reaches the family PDF.
+
+**Diagnostics shows where the Jev key comes from.** Settings → Diagnostics now
+reports whether Jev is on and where its key comes from (environment or
+Keychain), never the key itself.
+]]></description>
+            <enclosure url="https://flow-updates.forcehockeyiq.com/FLOW-1.0.1550-1550.zip" length="27065163" type="application/octet-stream" sparkle:edSignature="MI4nDxJh76jrp+nqOTGh8iAn1tvwosl+WFpPHASLLxu9yDHYsnoG9WXfqeuuypl19RguHHTHBoBTmowj/nXHDQ=="/>
+        </item>
+        <item>
             <title>1.0.1539</title>
             <pubDate>Fri, 18 Sep 2026 13:03:17 -0400</pubDate>
             <sparkle:version>1539</sparkle:version>
@@ -808,6 +840,6 @@ This app update requires the matching Import Edge service for automatic SHIFTS p
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: C6BOmMXJKb+rPn1nhpZirWQfGmPNFcJ661hCu5rwKNZhRO9vl7Fal1dXemy1IwZdbLklOEmwD0vwdAea1k5XAw==
-length: 56323
+edSignature: 5bE3j9VfBw2GMDKen+kIuEBAwtMYJ6X0e16iyU2jJ1gQ/jFkoNgVNbw1SQzuPrq1kh/7jsWiuI6MtrolcunPBw==
+length: 58339
 -->
